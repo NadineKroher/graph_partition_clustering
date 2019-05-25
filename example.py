@@ -10,6 +10,7 @@ for i in range(n):
     for j in range(i+1):
         s[i,j] = 0
 
+
 start_time = time.time()
 q, k_clustering = main.getclusters(s,k)
 elapsed_time = time.time() - start_time
